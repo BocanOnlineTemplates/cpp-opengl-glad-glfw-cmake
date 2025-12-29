@@ -1,0 +1,53 @@
+## Bocan Online Defaults
+
+# CMake Build Files and Directories
+build-debug/
+build-release/
+
+# macOS Artifacts
+.DS_Store
+
+## GitHub Defaults
+# https://github.com/github/gitignore/blob/86922aee426c32ffb6098f9a38c42da75169501e/C%2B%2B.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo

@@ -6,4 +6,4 @@ project_root="$(cd "${script_dir}/.." && pwd)"
 
 cd "$project_root"
 
-./build-debug/source/Template-App/Template-App
+./build-debug/source/OpenGLTemplate-App/OpenGLTemplate-App

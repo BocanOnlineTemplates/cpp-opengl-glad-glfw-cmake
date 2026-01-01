@@ -20,7 +20,6 @@ target_include_directories(${APP_NAME}
 
 target_link_libraries(${APP_NAME}
     PRIVATE
-        ${CORE_NAME}
         glad
         glfw
         glm

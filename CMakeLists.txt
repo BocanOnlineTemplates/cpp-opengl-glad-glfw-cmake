@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0)
 
-project(Template CXX)
+project(OpenGLTemplate CXX)
 
 set(APP_NAME ${PROJECT_NAME}-App)
 set(CORE_NAME ${PROJECT_NAME}-Core)
@@ -24,5 +24,4 @@ if(BUILD_TESTING)
 endif()
 
 add_subdirectory(source/${APP_NAME})
-add_subdirectory(source/${CORE_NAME})
 add_subdirectory(vendor)

@@ -1,7 +1,5 @@
 include(FetchContent)
 
-#set(GLAD_INSTALL ON)
-
 FetchContent_Declare(
     glad
     GIT_REPOSITORY https://github.com/Dav1dde/glad.git
@@ -16,5 +14,3 @@ FetchContent_MakeAvailable(glad)
 
 set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 add_subdirectory(${glad_SOURCE_DIR} ${glad_BINARY_DIR})
-
-#glad_add_library(glad STATIC gl:core=4.3)

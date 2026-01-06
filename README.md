@@ -1,4 +1,4 @@
-# cpp-opengl-glfw-glad-cmake
+# cpp-opengl-glad-glfw-cmake
 ## Bocan Online C++ OpenGL Template
 
 Template for C++ projects with cross-platform Graphical User Interface (GUI) 

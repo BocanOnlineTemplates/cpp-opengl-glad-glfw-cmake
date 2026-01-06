@@ -1,4 +1,4 @@
-session_name: cpp-opengl-glfw-glad-cmake
+session_name: cpp-opengl-glad-glfw-cmake
 windows:
   - window_name: editor-project
     shell_command_before:
